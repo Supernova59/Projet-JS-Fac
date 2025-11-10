@@ -1,0 +1,22 @@
+.priority-scale {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.priority-level {
+  width: 25px;
+  height: 25px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.priority-level.active {
+  background-color: #ff4d4d;
+}
+
+.priority-level:hover {
+  transform: scale(1.2);
+}

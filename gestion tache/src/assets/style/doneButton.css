@@ -1,0 +1,12 @@
+div.doneButton {
+  display: inline-block;
+  padding: 4px;
+  margin-left: 5px;
+  color: rgb(36, 194, 52);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.doneButton:hover {
+  transform: scale(1.5);
+}

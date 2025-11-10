@@ -1,0 +1,77 @@
+div.task {
+  padding: 4px;
+  border: solid thin #CCC;
+  width: 330px;
+  text-align: left;
+  background-color: #EEE;
+  margin: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.task div.info {
+  width: 80%;
+}
+
+div.task div.priority {
+  display: flex;
+  align-items: center;
+}
+
+div.task:hover {
+  box-shadow: 0px 0px 2px 2px rgba(150, 150, 150, 1);
+}
+
+div.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div.task-item p.task-description {
+  flex: 1;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+div.task-item div.priority-scale {
+  display: flex;
+  align-items: center;
+}
+
+div.task-item div.priority-level {
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+}
+
+div.task-item div.priority-level.active {
+  background-color: #ff0000;
+}
+
+div.task-item span.priority-value {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+div.task-item button.complete-button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #00aa00;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+div.task-item button.complete-button:hover {
+  background-color: #e6ffe6;
+}

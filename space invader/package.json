@@ -1,0 +1,30 @@
+{
+   "name": "arrows",
+   "description": "petit jeu - projet 1 - JS S4",
+   "author": "your name",
+   "version": "1.0.0",
+   "main": "main.js",
+   "scripts": {
+      "build": "webpack",
+      "watch": "webpack --watch",
+      "dev-server": "webpack serve"
+   },
+   "license": "ISC",
+   "devDependencies": {
+      "@babel/core": "^7.26.0",
+      "@babel/preset-env": "^7.26.0",
+      "@babel/preset-react": "^7.26.3",
+      "@babel/plugin-transform-runtime": "^7.25.9",
+      "babel-loader": "^9.2.1",
+      "copy-webpack-plugin": "^12.0.2",
+      "css-loader": "^7.1.2",
+      "favicons": "^7.2.0",
+      "favicons-webpack-plugin": "^6.0.1",       
+      "file-loader": "^6.2.0",
+      "html-webpack-plugin": "^5.6.3",
+      "style-loader": "^4.0.0",
+      "webpack": "^5.97.1",
+      "webpack-cli": "^6.0.1",
+      "webpack-dev-server": "^5.2.0"
+   }
+}
