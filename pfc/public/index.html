@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>PFC</title>
+    <script src="/public/scripts/bundle.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>P F C</h1>
+        
+        <div id="home">
+            <p>Jouer ?</p>
+            <button id="btn-start" class="btn-start">Play</button>
+        </div>
+
+        <div id="lobby" class="hidden">
+            <p id="status">Connexion</p>
+            <div class="loader">Attente adv </div>
+        </div>
+
+        <div id="game-area" class="hidden">
+            <p id="game-message">Choisis ton truc , plus vite que ça , arrête de lire et choisi , plus vite aller !!! :</p>
+            
+            <div class="choices">
+                <button id="btn-pierre" class="btn">✊ Pierre
+                    <img src="/public/images/Pierre.jpg" alt="Pierre">
+                </button>
+                <button id="btn-feuille" class="btn">✋ Feuille
+                    <img src="/public/images/Feuille.jpg" alt="Feuille">
+                </button>
+                <button id="btn-ciseaux" class="btn">✌️ Ciseaux
+                    <img src="/public/images/Ciseau.jpg" alt="Ciseaux">
+                </button>
+            </div>
+
+            <div id="result-area" class="hidden">
+                <h2 id="final-result"></h2>
+                <button id="btn-restart" class="btn-restart">Replay</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
